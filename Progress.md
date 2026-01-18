@@ -5,6 +5,7 @@ A file to help me track my progress
 - Setup folder structure
 - Decided on source (Kaggle Etherium Prices and Etherium Post)
 - Filter date Range for etherium_usd_data to match etherium related post. Also added utx timestamp to make comparison easier down the road. 
+- Cleaned up body text for posts as well. 
 
 
 
@@ -24,9 +25,9 @@ Explore the relationship between Reddit social sentiment and Ethereum (ETH) pric
 ---
 
 ## Step 2 — Data Cleaning & Preprocessing
-- [ ] Standardize timestamps to UTC
-- [ ] Remove duplicates and irrelevant posts
-- [ ] Clean text (lowercase, remove URLs/emojis/HTML artifacts)
+- [X] Standardize timestamps to UTC
+- [X] Remove duplicates and irrelevant posts
+- [X] Clean text (lowercase, remove URLs/emojis/HTML artifacts)
 - [ ] Aggregate posts to match ETH price intervals (hourly/daily)
 
 ---
