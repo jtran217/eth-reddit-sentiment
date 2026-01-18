@@ -29,20 +29,20 @@ Explore the relationship between Reddit social sentiment and Ethereum (ETH) pric
 - [X] Standardize timestamps to UTC
 - [X] Remove duplicates and irrelevant posts
 - [X] Clean text (lowercase, remove URLs/emojis/HTML artifacts)
-- [ ] Aggregate posts to match ETH price intervals (hourly/daily)
+- [X] Aggregate posts to match ETH price intervals (hourly/daily)
 
 ---
 
 ## Step 3 — Sentiment Analysis
-- [ ] Apply VADER sentiment scoring
+- [X] Apply VADER sentiment scoring
 - [ ] Optionally apply FinBERT for domain-specific sentiment
-- [ ] Aggregate sentiment per time window (mean, weighted, post count)
-- [ ] Explore distributions and identify outliers
+- [X] Aggregate sentiment per time window (mean, weighted, post count)
+- [X] Explore distributions and identify outliers
 
 ---
 
 ## Step 4 — Feature Engineering
-- [ ] Merge sentiment features with ETH price data
+- [X] Merge sentiment features with ETH price data
 - [ ] Create derived features:
   - Price returns
   - Price direction (up/down)
