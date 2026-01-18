@@ -43,7 +43,7 @@ Explore the relationship between Reddit social sentiment and Ethereum (ETH) pric
 
 ## Step 4 — Feature Engineering
 - [X] Merge sentiment features with ETH price data
-- [ ] Create derived features:
+- [X] Create derived features:
   - Price returns
   - Price direction (up/down)
   - Volatility (rolling std or high-low)
