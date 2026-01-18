@@ -1,0 +1,32 @@
+# Data handling
+pandas>=2.0
+numpy>=1.25
+
+# Time & date handling
+python-dateutil>=2.8
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.12
+plotly>=6.0
+
+# Reddit APIs
+praw>=7.8
+psaw>=0.1.0
+
+# NLP & Sentiment
+nltk>=3.9
+vaderSentiment>=3.3
+transformers>=4.40
+torch>=2.1
+
+# Machine Learning
+scikit-learn>=1.3
+xgboost>=1.7
+
+# Utilities
+tqdm>=4.66
+
+jupyterlab>=4.1         
+ipython>=8.16            
+beautifulsoup4>=4.12     
