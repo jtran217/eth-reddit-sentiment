@@ -7,7 +7,8 @@ A file to help me track my progress
 - Filter date Range for etherium_usd_data to match etherium related post. Also added utx timestamp to make comparison easier down the road. 
 - Cleaned up body text for posts as well. 
 
-
+### 2026/01/18
+- Aggregate posts to match ETH price intervals 
 
 # Project Goals — eth-reddit-sentiment
 
