@@ -3,7 +3,9 @@ A file to help me track my progress
 ### 2026/01/17
 - Made Git repo
 - Setup folder structure
-- Decided on source (Kaggle Etherium Prices and r/ethfinance)
+- Decided on source (Kaggle Etherium Prices and Etherium Post)
+- Filter date Range for etherium_usd_data to match etherium related post. Also added utx timestamp to make comparison easier down the road. 
+
 
 
 # Project Goals — eth-reddit-sentiment
@@ -15,9 +17,9 @@ Explore the relationship between Reddit social sentiment and Ethereum (ETH) pric
 
 ## Step 1 — Data Collection
 - [X] Decide subreddits to track (r/ethereum, r/ethfinance, r/cryptocurrency)
-- [ ] Collect Reddit posts: timestamp, title, text, score, comment counts
-- [ ] Collect ETH historical price data
-- [ ] Save raw datasets in `data/raw/`
+- [X] Collect Reddit posts (Kaggle Data)
+- [X] Collect ETH historical price data (Kaggle Data)
+- [X] Save raw datasets in `data/raw/`
 
 ---
 
