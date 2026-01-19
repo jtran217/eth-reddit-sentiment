@@ -13,11 +13,11 @@ filter_df = df[(df['Date'] >= start_date) & (df['Date'] <= end_date)]
 filter_df = filter_df.copy()
 filter_df['timestamp'] = filter_df["Date"].astype('int64') // 10**9
 filter_df["Date"] = filter_df['Date'].dt.tz_localize("UTC")
-filter_df.to_csv('data/processed/filtered_eth_usd_data',index=False)
+filter_df.to_csv('data/processed/filtered_eth_usd_data.csv',index=False)
 
 df = pd.read_csv('data/raw/eth_post.csv')
 df['Date'] = pd.to_datetime(df['created_utc'],unit='s', utc=True)
 df = df[df['body'].notna() & (df['body'] != '')]
 df['body'] = df['body'].apply(utility.normalize_text)
-df.to_csv('data/processed/cleaned_ethereum_posts',index=False)
+df.to_csv('data/processed/cleaned_ethereum_posts.csv',index=False)
 
