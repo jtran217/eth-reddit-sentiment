@@ -30,3 +30,6 @@ tqdm>=4.66
 jupyterlab>=4.1         
 ipython>=8.16            
 beautifulsoup4>=4.12     
+
+#STATS
+statsmodels>=0.14.0
