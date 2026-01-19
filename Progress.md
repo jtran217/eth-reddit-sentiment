@@ -48,7 +48,7 @@ Explore the relationship between Reddit social sentiment and Ethereum (ETH) pric
   - Price direction (up/down)
   - Volatility (rolling std or high-low)
   - Lagged sentiment
-- [ ] Explore correlations between sentiment and price
+- [X] Explore correlations between sentiment and price
 
 ---
 
