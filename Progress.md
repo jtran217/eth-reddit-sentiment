@@ -53,9 +53,7 @@ Explore the relationship between Reddit social sentiment and Ethereum (ETH) pric
 ---
 
 ## Step 5 — Exploratory Data Analysis (EDA)
-- [ ] Plot ETH price vs sentiment over time
-- [ ] Visualize rolling correlations or trends
-- [ ] Conduct event studies around sentiment spikes
+- [X] Plot ETH price vs sentiment over time
 - [ ] Check distributions and scatter plots
 
 ---
@@ -65,13 +63,12 @@ Explore the relationship between Reddit social sentiment and Ethereum (ETH) pric
 - [ ] Train baseline models (Linear/Logistic Regression)
 - [ ] Train tree-based models (Random Forest, XGBoost)
 - [ ] Evaluate using metrics (R², MSE, accuracy, F1-score)
-- [ ] Experiment with lagged features and hyperparameters
 
 ---
 
 ## Step 7 — Visualization & Reporting
 - [ ] Plot predicted vs actual returns/directions
-- [ ] Create heatmaps for correlations or rolling sentiment
+- [ ] Create heatmaps for correlations 
 - [ ] Save visualizations to `reports/`
 - [ ] Update README.md with methodology and insights
 
