@@ -59,11 +59,10 @@ Explore the relationship between Reddit social sentiment and Ethereum (ETH) pric
 ---
 
 ## Step 6 — Modeling
-- [ ] Define predictive task (regression or classification)
-- [ ] Train baseline models (Linear/Logistic Regression)
-- [ ] Train tree-based models (Random Forest, XGBoost)
-- [ ] Evaluate using metrics (R², MSE, accuracy, F1-score)
-
+- [X] Define predictive task (regression or classification)
+- [X] Train baseline models (Linear/Logistic Regression)
+- [X] Train tree-based models (Random Forest, XGBoost)
+- [X] Evaluate using metrics (R², MSE, accuracy, F1-score)
 ---
 
 ## Step 7 — Visualization & Reporting
@@ -72,11 +71,3 @@ Explore the relationship between Reddit social sentiment and Ethereum (ETH) pric
 - [ ] Save visualizations to `reports/`
 - [ ] Update README.md with methodology and insights
 
----
-
-## Step 8 — Optional Extensions
-- [ ] Include Reddit comments in sentiment aggregation
-- [ ] Compare multiple subreddits or combine with news sentiment
-- [ ] Use embeddings or transformer-based models for deeper NLP
-- [ ] Explore advanced time series models (LSTM/GRU)
-- [ ] Run educational backtesting of sentiment-based strategies
