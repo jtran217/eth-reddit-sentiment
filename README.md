@@ -40,7 +40,5 @@ Reddit sentiment and ETH price are related, but not in a simple or predictive wa
 - Build predictive models using additional features.
 - Analyze other social platforms for comparison.
 
-## Project Link
-- [GitHub Repository](https://github.com/yourusername/eth-reddit-sentiment)
 
 
